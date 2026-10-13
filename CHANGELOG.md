@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-13
+
 ### Added
 
 - Scene actions "Trigger an IFTTT event" (event name, value1..value3) and
@@ -20,3 +22,6 @@ the notes of the version's GitHub Release.
   shared secret.
 - Dashboard widget "IFTTT button".
 - "Send a test event" button, which also shows the inbound URL.
+
+[Unreleased]: https://github.com/LM1LC3N7/gladys-ifttt/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/LM1LC3N7/gladys-ifttt/releases/tag/v0.1.1

@@ -1,6 +1,6 @@
 {
   "name": "gladys-ifttt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "IFTTT for Gladys Assistant: trigger IFTTT applets from scenes (Webhooks service) and start Gladys scenes from IFTTT through Gladys Plus webhooks.",
   "type": "module",
