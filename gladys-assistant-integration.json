@@ -375,8 +375,8 @@
             "fr": "Objet JSON"
           },
           "placeholder": {
-            "en": "{\"temperature\": \"{{device.living_room.temperature}}\"}",
-            "fr": "{\"temperature\": \"{{device.salon.temperature}}\"}"
+            "en": "{\"temperature\": \"{{0.0.last_value}}\"}",
+            "fr": "{\"temperature\": \"{{0.0.last_value}}\"}"
           }
         }
       ],

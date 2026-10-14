@@ -28,8 +28,9 @@ scene, a button or a webhook asks it to.
    request** with the event name of your choice (letters, digits and
    underscores, e.g. `coffee_on`), and whatever **Then That** you like.
 4. In a Gladys scene, add the action **Trigger an IFTTT event** with that
-   name. `value1`, `value2` and `value3` accept scene variables
-   (`{{device.living_room.temperature}}`).
+   name. `value1`, `value2` and `value3` accept scene variables, picked from
+   the variable list: for instance `{{0.0.last_value}}`, the value read by a
+   **Get device value** action when that action is the first of the scene.
 
 A free IFTTT account allows a few applets; the Webhooks service itself has no
 limit on the number of events.

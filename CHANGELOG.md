@@ -10,6 +10,12 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+### Fixed
+
+- Docs and the placeholder of the payload: a device value comes from the
+  variable list (`{{0.0.last_value}}` after a "Get device value" action), not
+  `{{device.<name>.temperature}}`, which Gladys does not know.
+
 ## [0.1.1] - 2026-10-13
 
 ### Added

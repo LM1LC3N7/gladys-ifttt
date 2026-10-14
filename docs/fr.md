@@ -30,7 +30,9 @@ scène, un bouton ou un webhook le lui demande.
    tirets bas, par exemple `cafe_on`), et le **Then That** que vous voulez.
 4. Dans une scène Gladys, ajoutez l'action **Déclencher un événement IFTTT**
    avec ce nom. `value1`, `value2` et `value3` acceptent les variables de
-   scène (`{{device.salon.temperature}}`).
+   scène, choisies dans la liste de variables : par exemple
+   `{{0.0.last_value}}`, la valeur lue par une action **Récupérer le dernier
+   état** quand cette action est la première de la scène.
 
 Un compte IFTTT gratuit limite le nombre d'applets ; le service Webhooks
 lui-même ne limite pas le nombre d'événements.
